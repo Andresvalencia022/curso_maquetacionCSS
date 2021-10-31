@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+    /*comportamiento de desplazamiento suave es decir  se mueve lento a la hora  de la trancicion*/
+}
+.div{
+    background-color: rgb(42, 194, 148);
+    width: 4%;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: 2s all; /*me hace una trasicion */
+    clear: both; /*quiere decir que respeta la posicion*/
+    transform:translate(-50px); /*cuando le digo un - me lo corre al lado izquierdo*/
+
+}
+.div:hover{
+    transition: 1s all; /*me hace una trasicion */
+    clear: both; /*quiere decir que respeta la posicion*/
+    transform:translate(-10px);
+}
+
+a{
+    list-style:none;
+   /* display: block;/*Me los coloca en elemnto en bloque */
+}
+li{
+    padding: center;
+    text-align: center;
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgb(253, 253, 253);
+}
+ 
